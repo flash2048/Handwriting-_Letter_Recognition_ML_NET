@@ -15,7 +15,7 @@ namespace DatasetGenerator
             var pathDataset = @"../../../../MulticlassClassificationML.ConsoleApp/dataset.csv";
             var drawString = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
             var backgroundColor = "ffffffff";
-            var saveFiles = true;
+            var saveFiles = false;
             var filesCatalogName = "images";
 
             var tw = new StreamWriter(pathDataset);
